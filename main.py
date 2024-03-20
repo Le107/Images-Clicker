@@ -24,6 +24,7 @@ def main():
     status = 0
     while True:
         if keyboard.is_pressed('space'):
+            print("Start")
             status = 1
         elif keyboard.is_pressed('x'):
             status = 0
@@ -32,7 +33,6 @@ def main():
             print("Stop")
             break
         elif status == 1:
-            print("Start")
             run()
         else:
             pass
