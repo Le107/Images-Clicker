@@ -27,9 +27,12 @@ def main():
             status = 1
         elif keyboard.is_pressed('x'):
             status = 0
+            print("Pause")
         elif keyboard.is_pressed('esc'):
+            print("Stop")
             break
         elif status == 1:
+            print("Start")
             run()
         else:
             pass
