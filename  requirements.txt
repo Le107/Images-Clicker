@@ -1,0 +1,5 @@
+keyboard
+os
+time
+pathlib
+pyautogui
