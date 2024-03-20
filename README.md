@@ -12,4 +12,8 @@ pip install -r requirements.txt
 ```bash
 python main.py 
 ```
+или 
+```bash
+start.bat 
+```
 Горячие клавиши: Пробел - старт; x - пауза; Esc - стоп(см. также в коде).
