@@ -4,3 +4,4 @@ time
 pathlib
 pyautogui
 pydirectinput
+opencv-python
